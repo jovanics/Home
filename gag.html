@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jovanics - EDU.COM</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-content">
+    <h1>EDU.COM</h1>
+    <p> 
+    Scientists |  Learners | Future innovators.</p>
+    <a href="#subjects" class="cta-button">Explore Subjects</a>
+  </div>
+</div>
+<header class="navbar">
+  <div class="nav-container">
+    <div class="logo">EDU.COM</div>
+    <nav id="nav-links">
+      <a href="gag.html">Home</a>
+      <a href="search.html">Search</a>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </div>
+</header>
+
+
+<div class="table" id="subjects">
+<table border="1">
+<caption>Subjects to Expect</caption>
+<thead>
+<tr>
+<th>Subjects</th>
+<th>Grades</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Math</td>
+<td>Grade 1–6</td>
+</tr>
+<tr>
+<td>Biology</td>
+<td>Grade 1–6</td>
+</tr>
+<tr>
+<td>Physics</td>
+<td>Grade 1–6</td>
+</tr>
+<tr>
+<td>Chemistry</td>
+<td>Grade 1–6</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+
+    <footer>
+  &copy; 2025 EDU.COM | Designed by: Jovanics pro
+</footer>
+</body>
+<script>
+  function toggleMenu() {
+    document.getElementById('nav-links').classList.toggle('show');
+  }
+</script>
+</html>
